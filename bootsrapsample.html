@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+    <html lang="en" dir="ltr">
+        <head>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+            <link rel="stylesheet" href="bootstrapstyle.css">
+            <meta charset="utf-8">
+            <title>Bootstrap Exercise</title>
+
+            <style>
+                .container,.container-fluid{
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+                    border: 6px solid gray;
+                    margin-bottom: 30px;
+                }
+            </style>
+
+        </head>
+        <body>
+            
+            
+
+            <div class="container" style="margin-top:70px">
+                <h1 class="text-center">Container</h1>
+            </div>
+            <div class="container-fluid">
+                <h1 class="text-center">Container Fluid</h1>
+            </div>
+
+            <div class="container">
+                <h2>Button Styles</h2>
+                <button type="button" class="btn">Basic</button>
+                <button type="button" class="btn btn-primary">Primary</button>
+                <button type="button" class="btn btn-secondary">Secondary</button>
+                <button type="button" class="btn btn-success">Success</button>
+                <button type="button" class="btn btn-info">Info</button>
+                <button type="button" class="btn btn-warning">Warning</button>
+                <button type="button" class="btn btn-danger">Danger</button>
+                <button type="button" class="btn btn-dark">Dark</button>
+                <button type="button" class="btn btn-light">Light</button>
+                <button type="button" class="btn btn-link">Link</button>
+            </div>
+
+            <div class="container">
+                <h2>Button Tags</h2>
+                <a href="#" class="btn btn-success btn-lg">Link Button</a>
+                <button type="button" class="btn btn-success btn-lg">Button</button>
+                <button type="button" name="button" class="btn btn-success btn-lg active">Login</button>
+                <button type="button" name="button" class="btn btn-success btn-lg" disabled="disabled">Login</button>
+                <a href="https://getbootstrap.com" class="btn btn-success btn-lg">Bootstrap Documentation</a>
+            </div>
+
+            <div class="container">
+                <h2>Button Sizes</h2>
+                <button type="button" class="btn btn-success btn-lg">Large</button>
+                <button type="button" class="btn btn-success">Normal</button>
+                <button type="button" class="btn btn-success btn-sm">Small</button>
+                <button type="button" class="btn btn-success btn-xs">Xs</button>
+            </div>
+            
+            <div class="container">
+                <h2>Button Group</h2>
+                <div class="btn-group btn-group-horizontal btn-group-lg btn-group-justified btn-success">
+                    <button type="button" class="btn btn-success btn-lg">button1</button>
+                    <button type="button" class="btn btn-success">button2</button>
+                    <button type="button" class="btn btn-success btn-sm">button3</button>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="jumbotron">
+                    <h1>Bootstrap Exercise</h1>
+                    <p>Rtyfv fgh trdfgyhu drftgyhuj xdfcvghj rtdf dfghj sdfg dfg kjh jhf</p>
+                </div>
+                <p>Random Text</p>
+                <p>Other Random Text</p>
+            </div>
+
+            <div class="container">
+                <h2>Grids</h2>
+                <div class="row">
+                    <div class="col-lg-3 box">Element 1</div>
+                    <div class="col-lg-6 box">Element 2</div>
+                    <div class="col-lg-3 box">Element 3</div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3 box">Element 1</div>
+                    <div class="col-md-3 box">Element 2</div>
+                    <div class="col-md-3 box">Element 3</div>
+                </div>
+            </div>
+
+            <div class="container">
+                <h2>Nested Grids</h2>
+                <div class="row">
+                    <div class="col-lg-6 box">
+                        <div class="row">
+                            <div class="col-lg-4 box">Nested Element 1</div>
+                            <div class="col-lg-4 box">Nested Element 2</div>
+                            <div class="col-lg-4 box">Nested Element 3</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 box">Element 2</div>
+                </div>
+            </div>
+
+            <div class="container">
+            <table class="table">
+                <thread>
+                    <tr>
+                        <th>FirstName</th>
+                        <th>LastName</th>
+                        <th>Email</th>
+                    </tr>
+                </thread>
+                <tbody>
+                    <tr class="table-primary">
+                        <td>Amita</td>
+                        <td>Suman</td>
+                        <td>amita@gmail.com</td>
+                    </tr>
+                    <tr class="table-success">
+                        <td>Freddie</td>
+                        <td>Carter</td>
+                        <td>freddie@gmail.com</td>
+                    </tr>
+                    <tr class="table-info">
+                        <td>Danielle</td>
+                        <td>Gallaghan</td>
+                        <td>danielle@gmail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+
+            <div class="container">
+                <h2>Bootstrap Images</h2>
+                <p>rounded, rounded-circle, img-thumbnails</p>
+                <img src="scenery.jpg" class="rounded" alt="scenery" width="304" height="236">
+                <img src="scenery.jpg" class="rounded-circle" alt="scenery" width="304" height="236">
+                <img src="scenery.jpg" class="img-thumbnails" alt="scenery" width="304" height="236">
+            </div>
+
+            <div class="container">
+                <h2>Responsive Images</h2>
+                <img class="img-fluid" src="scenery.jpg" alt="scenery" width="1100" height="500">
+            </div>
+
+            <!--<div class="container">
+                <h2>Bootstrap Aligning Images</h2>
+                <img src="scenery.jpg" class="float-start" alt="scenery" width="304" height="236">
+                <img src="scenery.jpg" class="float-end" alt="scenery" width="304" height="236">
+            </div>-->
+
+            <div class="container">
+                <div class="alert alert-primary" role="alert">Primary Alert</div>
+                <div class="alert alert-secondary" role="alert">
+                    Secondary Alert with <a href="#" class="alert-link">an example link</a>
+                </div>
+                <div class="alert alert-success" role="alert">Success Alert</div>
+                <div class="alert alert-danger" role="alert">Danger Alert</div>
+                <div class="alert alert-warning" role="alert">Warning Alert</div>
+                <div class="alert alert-info" role="alert">Info Alert</div>
+                <div class="alert alert-light" role="alert">Light Alert</div>
+                <div class="alert alert-dark" role="alert">Dark Alert</div>
+            </div>
+
+            <div class="container">
+                <div class="alert alert-success alert-dismissable d-flex align-items-center fade show" >
+                    <i class="bl-check-circle-fill"></i>
+                    <strong class="mx-2">Success!</strong>Your message has been sent successfully.
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                </div>
+                <div class="alert alert-danger alert-dismissable d-flex align-items-center fade show" >
+                    <i class="bl-exclamation-octagon-fill"></i>
+                    <strong class="mx-2">Error!</strong>There has been a problem while sending your message.
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                </div>
+                <div class="alert alert-warning alert-dismissable d-flex align-items-center fade show" >
+                    <i class="bl-exclamation-triangle-fill"></i>
+                    <strong class="mx-2">Warning!</strong>There has been a problem while sending your message.
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                </div>
+            </div>
+
+            <div class="container">
+                <h2>Progress Bar</h2>
+                <div class="progress" style="height:20px; margin-bottom: 10px">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:31%; height: 20px">31%</div>
+                </div>
+                <div class="progress" style="height:20px; margin-bottom: 10px">
+                    <div class="progress-bar bg-success" style="width:40%; height: 20px">40%</div>
+                </div>
+                <div class="progress" style="height:20px; margin-bottom: 10px">
+                    <div class="progress-bar progress-bar-striped bg-info" style="width:50%; height: 20px">50%</div>
+                </div>
+                <div class="progress" style="height:20px; margin-bottom: 10px">
+                    <div class="progress-bar bg-warning" style="width:60%; height: 20px">60%</div>
+                </div>
+                <div class="progress" style="height:20px; margin-bottom: 10px">
+                    <div class="progress-bar progress-bar-striped bg-danger" style="width:70%; height: 20px">70%</div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar bg-success" style="width:10%; height: 20px">10% Free Space</div>
+                    <div class="progress-bar bg-warning" style="width:20%; height: 20px">20% Warning</div>
+                    <div class="progress-bar bg-danger" style="width:30%; height: 20px">30% Danger</div>
+                </div>
+            </div>
+
+           
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+                
+                    
+                <a class="navbar-brand" href="#">
+                    <img src="scenery.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
+                </a>
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link 1</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link 2</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link 3</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Dropdown</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Link</a></li>
+                          <li><a class="dropdown-item" href="#">Another link</a></li>
+                          <li><a class="dropdown-item" href="#">A third link</a></li>
+                        </ul>
+                    </li>
+                  </ul>                            
+            </nav>    
+        
+
+        <div class="container">
+            <!-- Button to Open the Modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Open modal</button>  
+            <!-- The Modal -->
+            <div class="modal" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Modal Heading</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">Modal body..</div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>            
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </body>
+    </html>
